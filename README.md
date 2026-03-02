@@ -17,15 +17,14 @@ Despite using `clasp`, we must configure some things in the UI - notably allowin
 
 ## Getting started
 
-Only OS X is supported at the moment. PRs welcome for other operating systems.
+1. Install [mise](https://mise.jdx.dev/) and run `mise install` to set up Node.js.
 
-1. Set up initial dependencies: `script/bootstrap`
-    - Homebrew is required, and the script will complain if it cannot be found.
+2. Install dependencies: `npm install`
 
-2. Log in: `npx clasp login`
+3. Log in: `npx clasp login`
     - You should authenticate with the account we will be syncing *to*.
 
-3. Create an apps script project: `npx clasp create --type standalone --title gcal-sync`
+4. Create an apps script project: `npx clasp create --type standalone --title gcal-sync`
     - This will drop additional files into your checkout, which are *not* checked in.
     - You may get an error about not having enabled the Apps Script API. If so, follow the instructions in the error message.
 

@@ -2,8 +2,8 @@
   "name": "gcal-sync",
   "version": "0.0.1",
   "dependencies": {
-    "@google/clasp": "2.0.1",
-    "typescript": "3.3.4000",
-    "@types/google-apps-script": "0.0.41"
+    "@google/clasp": "3.2.0",
+    "typescript": "5.9.3",
+    "@types/google-apps-script": "2.0.8"
   }
 }
